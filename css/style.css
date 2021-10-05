@@ -78,3 +78,6 @@ nav ul li a{
     transform: translateX(-50%);
 }
 
+.container:last-of-type .scritta{
+    color: green;
+}
