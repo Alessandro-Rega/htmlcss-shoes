@@ -1,3 +1,4 @@
+/* generali */
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* container  */
 .container{
     height: 100vh;
     width: 100%;
@@ -42,13 +44,13 @@ nav ul li{
     background-color: white;
     text-align: center;
     line-height: 50px;
-    font-size: 30px;
     margin: 0 20px;
 }
 
 nav ul li a{
     text-decoration: none;
     color: black;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -78,6 +80,7 @@ nav ul li a{
     transform: translateX(-50%);
 }
 
+/* cambio scritta ultima scarpa */
 .container:last-of-type .scritta{
     color: green;
 }
